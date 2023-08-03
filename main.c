@@ -13,6 +13,7 @@ int main(int argc, char **argv) {
     double result = sqrt(x);
     
     int r = 0;
+    int hh = 0;
 
     if(x < 0) {
         fprintf(stderr, "Cannot handle complex roots\n");
