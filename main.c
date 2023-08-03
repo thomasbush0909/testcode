@@ -15,6 +15,8 @@ int main(int argc, char **argv) {
     int r = 0;
     int hh = 0;
 
+    int pp = 99;
+
     if(x < 0) {
         fprintf(stderr, "Cannot handle complex roots\n");
         exit(2);
